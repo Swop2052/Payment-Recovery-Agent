@@ -4,8 +4,6 @@
 
 ### 🚀 Autonomous AI Agent for Fintech Revenue Recovery
 
-*ML Prediction • GenAI Personalization • Agentic Orchestration*
-
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -24,7 +22,7 @@ Every year, fintech businesses lose **crores in revenue** to failed payments —
 
 ## 💡 The Solution
 
-An **autonomous AI agent** that, for every failed transaction, thinks like a smart recovery analyst. It predicts success probabilities, decides the best time to retry, drafts a personalized message based on real company policies, and tracks the ROI.
+An **automation AI agent** that, for every failed transaction, thinks like a smart recovery analyst. It predicts success probabilities, decides the best time to retry, drafts a personalized message based on real company policies, and tracks the ROI.
 
 ```mermaid
 flowchart TD
@@ -158,11 +156,3 @@ The system trains local scikit-learn models on the generated synthetic data:
 - [ ] Docker + cloud deployment for a live demo link.
 
 ---
-
-<div align="center">
-
-### 🏆 Built for Razorpay AI Buildathon 2026
-
-*Made with 🧠 + ☕ by [Swapnil]*
-
-</div>
