@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from genai.policy_docs import retrieve_relevant_docs
+from agent.policy_docs import retrieve_relevant_docs
 
 load_dotenv()
 
