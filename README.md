@@ -86,26 +86,36 @@ Follow these steps to run the complete AI Agent and UI locally:
 git clone https://github.com/anujd1432/smart-payment-recovery.git
 cd smart-payment-recovery
 
-# 2. Set up virtual environment
+# 2. Add your Groq API key
+echo GROQ_API_KEY=your_key_here > .env
+
+# 3. Build and run using Docker Compose
+docker-compose up --build -d
+```
+
+### Option 2: Run Locally (Without Docker)
+
+```bash
+# 1. Set up virtual environment
 python -m venv venv
 venv\Scripts\activate          # Windows
 # source venv/bin/activate     # Mac/Linux
 
-# 3. Install dependencies
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 4. Add your Groq API key
+# 3. Add your Groq API key
 echo GROQ_API_KEY=your_key_here > .env
 
-# 5. Generate data → DB → train models
+# 4. Generate data → DB → train models
 python data/generate_data.py
 python db/database.py
 python ml/train_models.py
 
-# 6. Run the backend (Terminal 1)
+# 5. Run the backend (Terminal 1)
 uvicorn backend.main:app --reload --port 8000
 
-# 7. Run the frontend (Terminal 2)
+# 6. Run the frontend (Terminal 2)
 cd frontend
 npm run dev
 ```
